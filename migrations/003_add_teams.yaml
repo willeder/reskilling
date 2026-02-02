@@ -19,5 +19,6 @@ operations:
         type: uuid
         nullable: true
         references:
+          name: fk_users_team_id
           table: teams
           column: id
