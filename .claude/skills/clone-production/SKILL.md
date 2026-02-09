@@ -1,3 +1,8 @@
+---
+name: clone-production
+description: Clone a production database with automatic PII anonymization
+---
+
 # Clone production database
 
 Clone a production database with automatic PII anonymization.

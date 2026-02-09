@@ -1,3 +1,8 @@
+---
+name: migration-start
+description: Begin a zero-downtime schema migration using pgroll
+---
+
 # Start a migration
 
 Begin a zero-downtime schema migration using pgroll.

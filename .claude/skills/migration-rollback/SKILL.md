@@ -1,3 +1,8 @@
+---
+name: migration-rollback
+description: Undo an in-progress migration that hasn't been completed yet
+---
+
 # Roll back a migration
 
 Undo an in-progress migration that hasn't been completed yet.

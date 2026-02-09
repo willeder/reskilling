@@ -1,3 +1,8 @@
+---
+name: migration-complete
+description: Finish an ongoing migration by running the contract phase
+---
+
 # Complete a migration
 
 Finish an ongoing migration by running the contract phase.

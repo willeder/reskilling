@@ -90,9 +90,9 @@ psql $(xata branch url) -c "INSERT INTO users (email, name) VALUES ('test@exampl
 
 ---
 
-## Claude Code commands
+## Claude Code skills
 
-This starter includes Claude Code commands for Xata workflows:
+This starter includes Claude Code skills for Xata workflows. Open Claude Code in this directory and use these slash commands:
 
 | Command | Description |
 |---------|-------------|
@@ -103,13 +103,18 @@ This starter includes Claude Code commands for Xata workflows:
 | `/project:migration-rollback` | Roll back a failed migration |
 | `/project:clone-production` | Clone production with PII anonymization |
 
+<p align="center">
+  <img src="public/xata-claude-branch-demo.png" alt="Claude Code creating a Xata branch" width="700" />
+</p>
+<p align="center"><em>Claude Code running /branch-create — names the branch, creates it, waits for ready and returns the connection string.</em></p>
+
 ---
 
 ## Project structure
 
 ```
 .
-├── .claude/commands/     # Claude Code workflow commands
+├── .claude/skills/      # Claude Code slash command skills
 ├── migrations/           # pgroll migration files (YAML)
 │   ├── 001_create_users.yaml
 │   ├── 002_add_role.yaml
