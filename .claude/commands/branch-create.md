@@ -6,6 +6,7 @@ Create an isolated database branch for feature development.
 
 ```bash
 xata branch create --name <branch-name>
+xata branch wait-ready <branch-name>
 ```
 
 ## Example
@@ -13,6 +14,9 @@ xata branch create --name <branch-name>
 ```bash
 # Create a branch for a new feature
 xata branch create --name feature/user-roles
+
+# Wait for the branch to be ready
+xata branch wait-ready feature/user-roles
 
 # Get the connection string for the new branch
 xata branch url feature/user-roles
