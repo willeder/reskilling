@@ -1,12 +1,10 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import ClientLayout from '@/components/ClientLayout'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
-  title: 'Next.js + Xata Starter',
-  description: 'Production-ready starter for AI apps with Xata',
+  title: 'ReSkill - B2Bリスキリングプラットフォーム',
+  description: '業務棚卸から始めるAI・DX活用実践講座',
 }
 
 export default function RootLayout({
@@ -15,8 +13,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body>
+        <ClientLayout>{children}</ClientLayout>
+      </body>
     </html>
   )
 }

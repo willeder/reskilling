@@ -1,0 +1,143 @@
+date,category,product,quantity,unit_price,revenue
+2025-10-03,Electronics,Smartphone,3,79800,239400
+2025-10-05,Electronics,Laptop,1,128000,128000
+2025-10-07,Clothing,T-shirt,10,3980,39800
+2025-10-08,Food & Beverage,Coffee Beans,8,2480,19840
+2025-10-10,Books,Technical Book,5,3520,17600
+2025-10-11,Sports,Running Shoes,2,18800,37600
+2025-10-13,Electronics,Headphones,4,19800,79200
+2025-10-14,Clothing,Jeans,6,8980,53880
+2025-10-15,Food & Beverage,Green Tea,12,1580,18960
+2025-10-17,Books,Novel,15,1650,24750
+2025-10-18,Sports,Yoga Mat,3,5980,17940
+2025-10-20,Electronics,Tablet,2,64800,129600
+2025-10-21,Clothing,Jacket,4,19800,79200
+2025-10-22,Food & Beverage,Snack Set,6,3980,23880
+2025-10-24,Books,Manga,20,748,14960
+2025-10-25,Sports,Dumbbells,2,12800,25600
+2025-10-27,Electronics,Smart Watch,3,39800,119400
+2025-10-28,Clothing,Dress,5,12800,64000
+2025-10-29,Food & Beverage,Wine,4,6800,27200
+2025-10-31,Sports,Tennis Racket,2,9800,19600
+2025-11-01,Electronics,Smartphone,5,79800,399000
+2025-11-03,Books,Magazine,25,980,24500
+2025-11-04,Food & Beverage,Protein Bar,30,380,11400
+2025-11-05,Clothing,Sneakers,7,14800,103600
+2025-11-07,Sports,Bicycle Helmet,3,7800,23400
+2025-11-08,Electronics,Laptop,2,128000,256000
+2025-11-10,Clothing,T-shirt,15,3980,59700
+2025-11-11,Food & Beverage,Coffee Beans,10,2480,24800
+2025-11-13,Books,Cookbook,8,2200,17600
+2025-11-14,Sports,Running Shoes,4,18800,75200
+2025-11-15,Electronics,Headphones,6,19800,118800
+2025-11-17,Clothing,Jeans,8,8980,71840
+2025-11-18,Food & Beverage,Green Tea,15,1580,23700
+2025-11-20,Books,Technical Book,6,3520,21120
+2025-11-21,Sports,Yoga Mat,5,5980,29900
+2025-11-22,Electronics,Tablet,3,64800,194400
+2025-11-24,Clothing,Jacket,6,19800,118800
+2025-11-25,Food & Beverage,Snack Set,9,3980,35820
+2025-11-26,Books,Novel,18,1650,29700
+2025-11-28,Sports,Dumbbells,3,12800,38400
+2025-11-29,Electronics,Smart Watch,5,39800,199000
+2025-12-01,Clothing,Dress,8,12800,102400
+2025-12-02,Food & Beverage,Wine,7,6800,47600
+2025-12-03,Books,Manga,30,748,22440
+2025-12-04,Sports,Tennis Racket,4,9800,39200
+2025-12-05,Electronics,Smartphone,8,79800,638400
+2025-12-06,Clothing,Sneakers,12,14800,177600
+2025-12-08,Food & Beverage,Protein Bar,50,380,19000
+2025-12-10,Books,Magazine,35,980,34300
+2025-12-11,Sports,Bicycle Helmet,5,7800,39000
+2025-12-12,Electronics,Laptop,3,128000,384000
+2025-12-13,Clothing,T-shirt,20,3980,79600
+2025-12-15,Food & Beverage,Coffee Beans,14,2480,34720
+2025-12-16,Books,Cookbook,10,2200,22000
+2025-12-17,Sports,Running Shoes,6,18800,112800
+2025-12-18,Electronics,Headphones,8,19800,158400
+2025-12-19,Clothing,Jeans,10,8980,89800
+2025-12-20,Food & Beverage,Green Tea,20,1580,31600
+2025-12-21,Books,Technical Book,8,3520,28160
+2025-12-22,Electronics,Tablet,4,64800,259200
+2025-12-23,Clothing,Jacket,10,19800,198000
+2025-12-24,Food & Beverage,Snack Set,15,3980,59700
+2025-12-25,Electronics,Smart Watch,7,39800,278600
+2025-12-26,Sports,Yoga Mat,8,5980,47840
+2025-12-27,Books,Novel,22,1650,36300
+2025-12-28,Clothing,Dress,12,12800,153600
+2025-12-29,Food & Beverage,Wine,10,6800,68000
+2025-12-30,Sports,Dumbbells,5,12800,64000
+2026-01-04,Electronics,Smartphone,4,79800,319200
+2026-01-05,Books,Manga,25,748,18700
+2026-01-06,Sports,Tennis Racket,3,9800,29400
+2026-01-07,Clothing,Sneakers,8,14800,118400
+2026-01-08,Food & Beverage,Protein Bar,40,380,15200
+2026-01-10,Electronics,Laptop,2,128000,256000
+2026-01-11,Books,Magazine,20,980,19600
+2026-01-12,Sports,Bicycle Helmet,4,7800,31200
+2026-01-13,Clothing,T-shirt,12,3980,47760
+2026-01-14,Food & Beverage,Coffee Beans,9,2480,22320
+2026-01-15,Electronics,Headphones,5,19800,99000
+2026-01-16,Books,Cookbook,7,2200,15400
+2026-01-17,Sports,Running Shoes,3,18800,56400
+2026-01-18,Clothing,Jeans,7,8980,62860
+2026-01-19,Food & Beverage,Green Tea,14,1580,22120
+2026-01-20,Books,Technical Book,5,3520,17600
+2026-01-21,Electronics,Tablet,2,64800,129600
+2026-01-22,Clothing,Jacket,5,19800,99000
+2026-01-24,Food & Beverage,Snack Set,8,3980,31840
+2026-01-25,Electronics,Smart Watch,4,39800,159200
+2026-01-26,Sports,Yoga Mat,4,5980,23920
+2026-01-27,Books,Novel,16,1650,26400
+2026-01-28,Clothing,Dress,7,12800,89600
+2026-01-29,Food & Beverage,Wine,6,6800,40800
+2026-01-30,Sports,Dumbbells,3,12800,38400
+2026-02-01,Electronics,Smartphone,6,79800,478800
+2026-02-03,Books,Manga,22,748,16456
+2026-02-04,Sports,Tennis Racket,3,9800,29400
+2026-02-05,Clothing,Sneakers,9,14800,133200
+2026-02-06,Food & Beverage,Protein Bar,35,380,13300
+2026-02-07,Electronics,Laptop,2,128000,256000
+2026-02-09,Books,Magazine,18,980,17640
+2026-02-10,Sports,Bicycle Helmet,4,7800,31200
+2026-02-11,Clothing,T-shirt,14,3980,55720
+2026-02-12,Food & Beverage,Coffee Beans,11,2480,27280
+2026-02-14,Electronics,Headphones,6,19800,118800
+2026-02-15,Clothing,Jacket,8,19800,158400
+2026-02-16,Food & Beverage,Green Tea,18,1580,28440
+2026-02-17,Books,Technical Book,6,3520,21120
+2026-02-18,Sports,Running Shoes,4,18800,75200
+2026-02-19,Electronics,Tablet,3,64800,194400
+2026-02-20,Clothing,Jeans,9,8980,80820
+2026-02-21,Food & Beverage,Snack Set,10,3980,39800
+2026-02-22,Books,Novel,14,1650,23100
+2026-02-23,Electronics,Smart Watch,5,39800,199000
+2026-02-24,Sports,Yoga Mat,5,5980,29900
+2026-02-25,Clothing,Dress,8,12800,102400
+2026-02-26,Food & Beverage,Wine,7,6800,47600
+2026-02-27,Sports,Dumbbells,4,12800,51200
+2026-02-28,Books,Cookbook,8,2200,17600
+2026-03-01,Electronics,Smartphone,5,79800,399000
+2026-03-02,Books,Manga,20,748,14960
+2026-03-03,Sports,Tennis Racket,4,9800,39200
+2026-03-04,Clothing,Sneakers,10,14800,148000
+2026-03-05,Food & Beverage,Protein Bar,45,380,17100
+2026-03-06,Electronics,Laptop,3,128000,384000
+2026-03-07,Books,Magazine,22,980,21560
+2026-03-08,Sports,Bicycle Helmet,5,7800,39000
+2026-03-09,Clothing,T-shirt,16,3980,63680
+2026-03-10,Food & Beverage,Coffee Beans,12,2480,29760
+2026-03-11,Electronics,Headphones,7,19800,138600
+2026-03-12,Books,Cookbook,9,2200,19800
+2026-03-13,Sports,Running Shoes,5,18800,94000
+2026-03-14,Clothing,Jeans,11,8980,98780
+2026-03-15,Food & Beverage,Green Tea,16,1580,25280
+2026-03-16,Books,Technical Book,7,3520,24640
+2026-03-17,Electronics,Tablet,3,64800,194400
+2026-03-18,Clothing,Jacket,7,19800,138600
+2026-03-19,Food & Beverage,Snack Set,11,3980,43780
+2026-03-20,Electronics,Smart Watch,6,39800,238800
+2026-03-21,Sports,Yoga Mat,6,5980,35880
+2026-03-22,Books,Novel,17,1650,28050
+2026-03-23,Clothing,Dress,9,12800,115200
+2026-03-24,Food & Beverage,Wine,8,6800,54400
