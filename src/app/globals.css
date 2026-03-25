@@ -404,6 +404,7 @@ a:hover { text-decoration: underline; }
   grid-template-columns: 1fr 340px;
   gap: 20px;
 }
+.player-grid > div { min-width: 0; }
 
 /* ── Mobile menu button (hidden on desktop) ── */
 .menu-btn {
