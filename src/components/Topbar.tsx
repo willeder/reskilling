@@ -26,7 +26,13 @@ export default function Topbar({ onMenuClick }: TopbarProps) {
         <button className="menu-btn" onClick={onMenuClick} aria-label="メニューを開く">
           &#9776;
         </button>
-        <div className="topbar-title">{title}</div>
+        {pathname === '/' ? (
+          <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 16, color: 'var(--text)', lineHeight: 1 }}>
+            Re<span style={{ color: 'var(--accent)' }}>Skill</span>
+          </div>
+        ) : (
+          <div className="topbar-title">{title}</div>
+        )}
       </div>
       <div className="topbar-right">
         <span className="badge badge-yellow" style={{ whiteSpace: 'nowrap' }}>通知 2件</span>

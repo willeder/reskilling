@@ -10,7 +10,7 @@ export default function LPPage() {
           <div style={{ marginBottom: 12 }}>
             <span className="badge badge-blue">法人向けB2Bリスキリング</span>
           </div>
-          <div className="lp-h1" style={{ fontSize: 36, marginBottom: 12 }}>
+          <div className="lp-h1" style={{ marginBottom: 12 }}>
             業務棚卸から始める<br /><span>AI・DX活用実践講座</span>
           </div>
           <p style={{ color: 'var(--text-sub)', fontSize: 15, maxWidth: 520, margin: '0 auto 28px', lineHeight: 1.8 }}>
@@ -55,7 +55,7 @@ export default function LPPage() {
 
       {/* Phase breakdown */}
       <div style={{ marginBottom: 32 }}>
-        <h2 style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 18, marginBottom: 16, color: 'var(--text)' }}>
+        <h2 style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 18, marginBottom: 16, color: 'var(--text)' }}>
           コンテンツ比率
         </h2>
         <div className="grid grid-2">
@@ -63,7 +63,7 @@ export default function LPPage() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 8 }}>
               <div>
                 <div style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 600, marginBottom: 4 }}>AI基礎フェーズ</div>
-                <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 22 }}>Chapter 1〜3</div>
+                <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 22 }}>Chapter 1〜3</div>
               </div>
               <span className="badge badge-blue" style={{ fontSize: 16, padding: '6px 14px' }}>30%</span>
             </div>
@@ -73,7 +73,7 @@ export default function LPPage() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 8 }}>
               <div>
                 <div style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 600, marginBottom: 4 }}>業務棚卸しフェーズ</div>
-                <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 22 }}>Chapter 4〜9</div>
+                <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 22 }}>Chapter 4〜9</div>
               </div>
               <span className="badge" style={{ fontSize: 16, padding: '6px 14px', background: 'rgba(139,92,246,0.1)', color: '#7C3AED' }}>70%</span>
             </div>
@@ -84,10 +84,11 @@ export default function LPPage() {
 
       {/* Chapter overview */}
       <div>
-        <h2 style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 18, marginBottom: 16, color: 'var(--text)' }}>
+        <h2 style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 18, marginBottom: 16, color: 'var(--text)' }}>
           コース構成
         </h2>
         <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+          <div style={{ overflowX: 'auto' }}>
           <table className="table">
             <thead>
               <tr>
@@ -123,6 +124,7 @@ export default function LPPage() {
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </div>

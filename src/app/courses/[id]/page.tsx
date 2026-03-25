@@ -46,7 +46,7 @@ export default function PlayerPage() {
           <div className="video-player" style={{ marginBottom: 16 }}>
             <div style={{ textAlign: 'center' }}>
               <div style={{
-                fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 18,
+                fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 18,
                 color: 'rgba(255,255,255,0.5)', marginBottom: 12, letterSpacing: 1,
               }}>
                 {chapter.phase === 'ai' ? 'AI基礎フェーズ' : '業務棚卸しフェーズ'}
@@ -94,9 +94,9 @@ export default function PlayerPage() {
               {/* Sections */}
               {chapter.sections.map(section => (
                 <div key={section.id} style={{ marginBottom: 24 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10, flexWrap: 'wrap', gap: 4 }}>
                     <div>
-                      <span style={{ fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: 14 }}>
+                      <span style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 700, fontSize: 14 }}>
                         Section {section.id}　{section.title}
                       </span>
                     </div>
@@ -104,6 +104,7 @@ export default function PlayerPage() {
                   </div>
 
                   <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+                    <div style={{ overflowX: 'auto' }}>
                     <table className="table">
                       <thead>
                         <tr>
@@ -148,6 +149,7 @@ export default function PlayerPage() {
                         })}
                       </tbody>
                     </table>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -191,7 +193,7 @@ export default function PlayerPage() {
         <div className="player-sidebar">
           <div className="card" style={{ marginBottom: 16 }}>
             <div style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 8 }}>Chapter {chapter.id} の情報</div>
-            <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: 14, marginBottom: 12, lineHeight: 1.5 }}>
+            <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 700, fontSize: 14, marginBottom: 12, lineHeight: 1.5 }}>
               {chapter.title}
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6, fontSize: 12, color: 'var(--text-sub)', marginBottom: 14 }}>

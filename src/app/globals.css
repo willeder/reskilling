@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 :root {
   --bg: #F1F5F9;
@@ -53,7 +53,7 @@ a:hover { text-decoration: underline; }
 .logo {
   padding: 24px 20px;
   border-bottom: 1px solid var(--border);
-  font-family: 'Syne', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: var(--text);
@@ -95,7 +95,7 @@ a:hover { text-decoration: underline; }
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(12px);
 }
-.topbar-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 17px; color: var(--text); }
+.topbar-title { font-family: 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 17px; color: var(--text); }
 .topbar-right { display: flex; align-items: center; gap: 12px; }
 
 .avatar {
@@ -130,7 +130,7 @@ a:hover { text-decoration: underline; }
 /* ── Content ── */
 .content { padding: 28px; }
 .page-header { margin-bottom: 28px; }
-.page-header h1 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 26px; color: var(--text); }
+.page-header h1 { font-family: 'Noto Sans JP', sans-serif; font-weight: 800; font-size: 26px; color: var(--text); }
 .page-header p { color: var(--text-sub); font-size: 14px; margin-top: 4px; }
 
 /* ── Cards ── */
@@ -142,7 +142,7 @@ a:hover { text-decoration: underline; }
   transition: all 0.2s;
 }
 .card:hover { border-color: rgba(59, 130, 246, 0.3); box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-.card-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; margin-bottom: 4px; color: var(--text); }
+.card-title { font-family: 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 14px; margin-bottom: 4px; color: var(--text); }
 .card-value { font-size: 32px; font-weight: 700; line-height: 1.1; color: var(--text); }
 .card-sub { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
 
@@ -343,7 +343,7 @@ a:hover { text-decoration: underline; }
   border-radius: 20px;
   border: 1px solid #DBEAFE;
 }
-.lp-h1 { font-family: 'Syne', sans-serif; font-size: 48px; font-weight: 800; line-height: 1.1; margin-bottom: 16px; color: var(--text); }
+.lp-h1 { font-family: 'Noto Sans JP', sans-serif; font-size: 48px; font-weight: 800; line-height: 1.1; margin-bottom: 16px; color: var(--text); }
 .lp-h1 span { background: linear-gradient(135deg, var(--accent), #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 /* ── Test options ── */
@@ -391,7 +391,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: 800;
   font-size: 22px;
   color: white;

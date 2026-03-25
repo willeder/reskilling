@@ -9,7 +9,7 @@ interface SidebarProps {
 }
 
 const navItems = [
-  { href: '/', label: 'トップページ (LP)', group: 'public' },
+  { href: '/', label: 'トップページ', group: 'public' },
   { href: '/courses', label: 'チャプター一覧', group: 'public' },
   { href: '/courses/1', label: '受講画面', group: 'learner' },
   { href: '/test', label: 'テスト・修了証', group: 'learner' },

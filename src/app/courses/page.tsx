@@ -55,7 +55,7 @@ export default function CoursesPage() {
                 width: 48, height: 48, borderRadius: 12, flexShrink: 0,
                 background: ch.phase === 'ai' ? 'rgba(59,130,246,0.1)' : 'rgba(139,92,246,0.1)',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 14,
+                fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 14,
                 color: ch.phase === 'ai' ? 'var(--accent)' : '#7C3AED',
               }}>
                 Ch{ch.id}
@@ -63,7 +63,7 @@ export default function CoursesPage() {
 
               <div style={{ flex: 1 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
-                  <span style={{ fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: 15 }}>{ch.title}</span>
+                  <span style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 700, fontSize: 15 }}>{ch.title}</span>
                   <span className={`badge ${ch.phase === 'ai' ? 'badge-blue' : ''}`} style={ch.phase === 'workflow' ? { background: 'rgba(139,92,246,0.1)', color: '#7C3AED' } : {}}>
                     {ch.phaseLabel}
                   </span>

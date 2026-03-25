@@ -19,8 +19,8 @@ export default function MyPage() {
       <div style={{ display: 'flex', gap: 20, marginBottom: 28 }}>
         <div className="avatar" style={{ width: 64, height: 64, fontSize: 22 }}>山</div>
         <div>
-          <h1 style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 22 }}>山田 花子</h1>
-          <p style={{ color: 'var(--text-sub)', fontSize: 13, marginTop: 3 }}>hanako.yamada@company.co.jp · マーケティング部</p>
+          <h1 style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 22 }}>山田 花子</h1>
+          <p style={{ color: 'var(--text-sub)', fontSize: 13, marginTop: 3, wordBreak: 'break-all' }}>hanako.yamada@company.co.jp · マーケティング部</p>
           <div style={{ display: 'flex', gap: 8, marginTop: 8 }}>
             <span className="badge badge-blue">受講中</span>
             <span className="badge badge-green">Chapter {completedChapters} / {courseInfo.chapterCount} 完了</span>
@@ -35,7 +35,7 @@ export default function MyPage() {
             <div style={{ fontSize: 13, fontWeight: 700, marginBottom: 2 }}>{courseInfo.title}</div>
             <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>{courseInfo.chapterCount} Chapter · {courseInfo.totalHours}</div>
           </div>
-          <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 28, color: 'var(--accent)' }}>
+          <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 28, color: 'var(--accent)' }}>
             {overallProgress}%
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function MyPage() {
                     width: 40, height: 40, borderRadius: 10, flexShrink: 0,
                     background: ch.phase === 'ai' ? 'rgba(59,130,246,0.1)' : 'rgba(139,92,246,0.1)',
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: 12,
+                    fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 12,
                     color: ch.phase === 'ai' ? 'var(--accent)' : '#7C3AED',
                   }}>
                     {ch.id}
@@ -113,7 +113,7 @@ export default function MyPage() {
         <div>
           {overallProgress < 100 ? (
             <div className="card" style={{ textAlign: 'center', padding: 40 }}>
-              <div style={{ fontFamily: 'Syne, sans-serif', fontSize: 18, fontWeight: 700, marginBottom: 8 }}>修了証はまだ発行されていません</div>
+              <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontSize: 18, fontWeight: 700, marginBottom: 8 }}>修了証はまだ発行されていません</div>
               <p style={{ fontSize: 13, color: 'var(--text-sub)', marginBottom: 20 }}>
                 全チャプターを修了し、最終テストに合格すると修了証が発行されます。
               </p>
@@ -125,11 +125,11 @@ export default function MyPage() {
             <>
               <div className="cert-preview" style={{ marginBottom: 16 }}>
                 <div style={{ fontSize: 12, letterSpacing: 3, color: 'var(--accent-light)', marginBottom: 16, textTransform: 'uppercase' }}>Certificate of Completion</div>
-                <div style={{ fontFamily: 'Syne, sans-serif', fontSize: 13, color: 'var(--text-sub)', marginBottom: 4 }}>This certifies that</div>
-                <div style={{ fontFamily: 'Syne, sans-serif', fontSize: 28, fontWeight: 800, marginBottom: 4, color: 'var(--text)' }}>山田 花子</div>
+                <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontSize: 13, color: 'var(--text-sub)', marginBottom: 4 }}>This certifies that</div>
+                <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontSize: 28, fontWeight: 800, marginBottom: 4, color: 'var(--text)' }}>山田 花子</div>
                 <div style={{ fontSize: 13, color: 'var(--text-sub)', marginBottom: 16 }}>has successfully completed</div>
-                <div style={{ fontFamily: 'Syne, sans-serif', fontSize: 15, fontWeight: 700, color: 'var(--accent-light)', marginBottom: 20 }}>{courseInfo.title}</div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: 'var(--text-muted)', paddingTop: 16, borderTop: '1px solid var(--border)' }}>
+                <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontSize: 15, fontWeight: 700, color: 'var(--accent-light)', marginBottom: 20 }}>{courseInfo.title}</div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 4, fontSize: 12, color: 'var(--text-muted)', paddingTop: 16, borderTop: '1px solid var(--border)' }}>
                   <span>発行日：2025年3月1日</span>
                   <span>認定番号：CERT-2025-003142</span>
                 </div>

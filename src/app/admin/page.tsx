@@ -44,7 +44,7 @@ export default function AdminPage() {
           {/* Course being studied */}
           <div className="card" style={{ marginBottom: 20 }}>
             <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--text-muted)', letterSpacing: 1, marginBottom: 8 }}>受講コース</div>
-            <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: 15, marginBottom: 6 }}>{courseInfo.title}</div>
+            <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 700, fontSize: 15, marginBottom: 6 }}>{courseInfo.title}</div>
             <div style={{ display: 'flex', gap: 16, fontSize: 12, color: 'var(--text-sub)' }}>
               <span>{courseInfo.chapterCount} Chapter</span>
               <span>{courseInfo.sectionCount} Section</span>
@@ -56,6 +56,7 @@ export default function AdminPage() {
 
           <div className="card">
             <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 14 }}>受講者別進捗</div>
+            <div style={{ overflowX: 'auto' }}>
             <table className="table">
               <thead>
                 <tr>
@@ -93,19 +94,21 @@ export default function AdminPage() {
                 ))}
               </tbody>
             </table>
+            </div>
           </div>
         </>
       )}
 
       {tab === 'members' && (
         <div className="card">
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 16 }}>
-            <input className="input" placeholder="受講者を検索..." style={{ width: 260 }} />
-            <div style={{ display: 'flex', gap: 8 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 16, flexWrap: 'wrap', gap: 10 }}>
+            <input className="input" placeholder="受講者を検索..." style={{ flex: 1, minWidth: 0 }} />
+            <div style={{ display: 'flex', gap: 8, flexShrink: 0 }}>
               <button className="btn btn-ghost btn-sm">CSV出力</button>
               <button className="btn btn-primary btn-sm">受講者を追加</button>
             </div>
           </div>
+          <div style={{ overflowX: 'auto' }}>
           <table className="table">
             <thead>
               <tr><th>氏名</th><th>部署</th><th>完了Ch</th><th>進捗</th><th>ステータス</th><th>操作</th></tr>
@@ -147,6 +150,7 @@ export default function AdminPage() {
               ))}
             </tbody>
           </table>
+          </div>
         </div>
       )}
 
@@ -157,6 +161,7 @@ export default function AdminPage() {
           </div>
           <div className="card" style={{ marginBottom: 16 }}>
             <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 14 }}>購入履歴</div>
+            <div style={{ overflowX: 'auto' }}>
             <table className="table">
               <thead>
                 <tr><th>コース名</th><th>購入日</th><th>ライセンス数</th><th>金額</th><th>支払方法</th><th>書類</th></tr>
@@ -176,8 +181,9 @@ export default function AdminPage() {
                 ))}
               </tbody>
             </table>
+            </div>
           </div>
-          <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
+          <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end', flexWrap: 'wrap' }}>
             <button className="btn btn-ghost">受講証明書を発行</button>
             <button className="btn btn-primary">ライセンスを追加購入</button>
           </div>

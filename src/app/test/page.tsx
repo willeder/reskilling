@@ -33,7 +33,7 @@ export default function TestPage() {
     return (
       <div className="content" style={{ maxWidth: 580, margin: '0 auto' }}>
         <div className="cert-preview" style={{ textAlign: 'center' }}>
-          <div style={{ fontFamily: 'Syne, sans-serif', fontSize: 22, fontWeight: 800, marginBottom: 8, color: 'var(--text)' }}>
+          <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontSize: 22, fontWeight: 800, marginBottom: 8, color: 'var(--text)' }}>
             {passed ? 'おめでとうございます！' : 'もう一度チャレンジしましょう'}
           </div>
           <div style={{ fontSize: 36, fontWeight: 800, color: passed ? 'var(--success)' : 'var(--warning)', marginBottom: 4 }}>
@@ -91,7 +91,7 @@ export default function TestPage() {
       </div>
 
       <div className="card" style={{ marginBottom: 20 }}>
-        <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: 16, lineHeight: 1.6 }}>
+        <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 700, fontSize: 16, lineHeight: 1.6 }}>
           Q{currentQ + 1}. {q.q}
         </div>
       </div>
