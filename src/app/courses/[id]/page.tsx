@@ -103,7 +103,7 @@ export default function PlayerPage() {
                     <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>合計 {section.totalMinutes}分</span>
                   </div>
 
-                  <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+                  <div className="card" style={{ padding: 0, overflow: 'clip' }}>
                     <div style={{ overflowX: 'auto' }}>
                     <table className="table">
                       <thead>

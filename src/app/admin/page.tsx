@@ -45,7 +45,7 @@ export default function AdminPage() {
           <div className="card" style={{ marginBottom: 20 }}>
             <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--text-muted)', letterSpacing: 1, marginBottom: 8 }}>受講コース</div>
             <div style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 700, fontSize: 15, marginBottom: 6 }}>{courseInfo.title}</div>
-            <div style={{ display: 'flex', gap: 16, fontSize: 12, color: 'var(--text-sub)' }}>
+            <div style={{ display: 'flex', gap: 8, fontSize: 12, color: 'var(--text-sub)', flexWrap: 'wrap' }}>
               <span>{courseInfo.chapterCount} Chapter</span>
               <span>{courseInfo.sectionCount} Section</span>
               <span>{courseInfo.lessonCount} Lesson</span>

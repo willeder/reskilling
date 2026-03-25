@@ -87,7 +87,7 @@ export default function LPPage() {
         <h2 style={{ fontFamily: 'Noto Sans JP, sans-serif', fontWeight: 800, fontSize: 18, marginBottom: 16, color: 'var(--text)' }}>
           コース構成
         </h2>
-        <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+        <div className="card" style={{ padding: 0, overflow: 'clip' }}>
           <div style={{ overflowX: 'auto' }}>
           <table className="table">
             <thead>
